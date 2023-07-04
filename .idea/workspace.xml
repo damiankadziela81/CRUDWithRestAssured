@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add 2 tests - with path variable and query params">
+    <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add new class for Create (POST) method">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CreateNewEmployeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ReadEmployeesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ReadEmployeesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReadEmployeesTest">
+  <component name="RunManager" selected="JUnit.CreateNewEmployeeTest.createNewEmployeeTest">
+    <configuration name="CreateNewEmployeeTest.createNewEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDWithRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CreateNewEmployeeTest" />
+      <option name="METHOD_NAME" value="createNewEmployeeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadEmployeesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
@@ -53,22 +70,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ReadEmployeesTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadEmployeesTest.readAllEmployeesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDWithRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadEmployeesTest" />
-      <option name="METHOD_NAME" value="readAllEmployeesTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateNewEmployeeTest.createNewEmployeeTest" />
         <item itemvalue="JUnit.ReadEmployeesTest" />
         <item itemvalue="JUnit.ReadEmployeesTest.readOneEmployeeV2Test" />
         <item itemvalue="JUnit.ReadEmployeesTest.readEmployeeWithQueryParamsTest" />
         <item itemvalue="JUnit.ReadEmployeesTest.readOneUserWithPathVariableTest" />
-        <item itemvalue="JUnit.ReadEmployeesTest.readAllEmployeesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688463830974</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add new version of 2nd test, introduced BASE_URL">
+      <created>1688466282027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688466282027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="Add 2 tests - with path variable and query params" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 2 tests - with path variable and query params" />
+    <MESSAGE value="Add new version of 2nd test, introduced BASE_URL" />
+    <MESSAGE value="Add new class for Create (POST) method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new class for Create (POST) method" />
   </component>
 </project>
