@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add new class for Create (POST) method">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UpdateEmployeeTest.java" afterDir="false" />
+    <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add new class for Update (PUT, PATCH) methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreateNewEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CreateNewEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UpdateEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UpdateEmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,22 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadEmployeesTest.readOneEmployeeV2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDWithRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadEmployeesTest" />
-      <option name="METHOD_NAME" value="readOneEmployeeV2Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UpdateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
@@ -120,13 +111,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpdateEmployeeTest.updateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDWithRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UpdateEmployeeTest" />
+      <option name="METHOD_NAME" value="updateEmployeeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UpdateEmployeeTest.partialUpdateEmployeeTest" />
-        <item itemvalue="JUnit.UpdateEmployeeTest" />
+        <item itemvalue="JUnit.UpdateEmployeeTest.updateEmployeeTest" />
         <item itemvalue="JUnit.CreateNewEmployeeTest.createNewEmployeeTest" />
+        <item itemvalue="JUnit.UpdateEmployeeTest" />
         <item itemvalue="JUnit.ReadEmployeesTest" />
-        <item itemvalue="JUnit.ReadEmployeesTest.readOneEmployeeV2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688467416105</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add new class for Update (PUT, PATCH) methods">
+      <created>1688468886472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688468886473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +200,7 @@
     <MESSAGE value="Add 2 tests - with path variable and query params" />
     <MESSAGE value="Add new version of 2nd test, introduced BASE_URL" />
     <MESSAGE value="Add new class for Create (POST) method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new class for Create (POST) method" />
+    <MESSAGE value="Add new class for Update (PUT, PATCH) methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new class for Update (PUT, PATCH) methods" />
   </component>
 </project>
