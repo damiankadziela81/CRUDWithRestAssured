@@ -1,4 +1,4 @@
-package org.example;
+package org.example.employees;
 
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
@@ -13,7 +13,7 @@ class DeleteEmployeeTest {
     void deleteEmployeeTest() {
         Response response = given()
                 .when()
-                .delete("http://localhost:3000/employees/7")
+                .delete("http://localhost:3000/employees/6")
                 .then()
                 .extract()
                 .response();

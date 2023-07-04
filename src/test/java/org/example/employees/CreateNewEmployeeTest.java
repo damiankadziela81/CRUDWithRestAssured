@@ -1,4 +1,4 @@
-package org.example;
+package org.example.employees;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;

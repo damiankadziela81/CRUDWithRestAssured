@@ -1,4 +1,4 @@
-package org.example;
+package org.example.employees;
 
 import com.github.javafaker.Faker;
 import io.restassured.http.ContentType;
