@@ -47,6 +47,39 @@ class ReadEmployeesTest {
         Assertions.assertEquals("8",json.getString("address.suite"));
     }
 
+    @Test
+    void readOneUserWithPathVariableTest() {
+
+        Response response = given()
+                .pathParams("id", 2)
+                .when()
+                .get("http://localhost:3000/employees/{id}");
+
+        Assertions.assertEquals(200,response.getStatusCode());
+
+        JsonPath json = response.jsonPath();
+        Assertions.assertEquals("Kasia",json.getString("firstName"));
+        Assertions.assertEquals("Niebieska",json.getString("lastName"));
+        Assertions.assertEquals("kniebieska",json.getString("username"));
+        Assertions.assertEquals("12/6",json.getString("address.suite"));
+    }
+
+    @Test
+    void readEmployeeWithQueryParamsTest() {
+
+        Response response = given()
+                .queryParam("firstName", "Bartek")
+                .when()
+                .get("http://localhost:3000/employees");
+
+        JsonPath json = response.jsonPath();
+        //Note that the response will be a list, not a single object!
+        Assertions.assertEquals("Bartek",json.getList("firstName").get(0));
+        Assertions.assertEquals("Czarny",json.getList("lastName").get(0));
+        Assertions.assertEquals("bczarny",json.getList("username").get(0));
+        Assertions.assertEquals("8",json.getList("address.suite").get(0));
+    }
+
 
 
 }
