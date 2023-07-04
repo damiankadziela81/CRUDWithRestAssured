@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add - faker">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DeleteEmployeeTest.java" afterDir="false" />
+    <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add new class for Delete method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bugs/CreateNewBugTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bugs/DeleteBugTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bugs/ReadBugTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bugs/UpdateBugTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreateNewEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/employees/CreateNewEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DeleteEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/employees/DeleteEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ReadEmployeesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/employees/ReadEmployeesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UpdateEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/employees/UpdateEmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,81 +53,80 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DeleteEmployeeTest.deleteEmployeeTest">
-    <configuration name="CreateNewEmployeeTest.createNewEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteBugTest">
+    <configuration name="CreateNewBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.bugs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CreateNewEmployeeTest" />
-      <option name="METHOD_NAME" value="createNewEmployeeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteEmployeeTest.deleteEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDWithRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DeleteEmployeeTest" />
-      <option name="METHOD_NAME" value="deleteEmployeeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDWithRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UpdateEmployeeTest" />
+      <option name="PACKAGE_NAME" value="org.example.bugs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bugs.CreateNewBugTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateEmployeeTest.partialUpdateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateNewBugTest.creteNewBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.bugs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UpdateEmployeeTest" />
-      <option name="METHOD_NAME" value="partialUpdateEmployeeTest" />
+      <option name="PACKAGE_NAME" value="org.example.bugs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bugs.CreateNewBugTest" />
+      <option name="METHOD_NAME" value="creteNewBugTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateEmployeeTest.updateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.bugs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.UpdateEmployeeTest" />
-      <option name="METHOD_NAME" value="updateEmployeeTest" />
+      <option name="PACKAGE_NAME" value="org.example.bugs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bugs.DeleteBugTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteBugTest.deleteBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDWithRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bugs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bugs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bugs.DeleteBugTest" />
+      <option name="METHOD_NAME" value="deleteBugTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateBugTest.partialUpdateBugTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDWithRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bugs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.bugs" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bugs.UpdateBugTest" />
+      <option name="METHOD_NAME" value="partialUpdateBugTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteEmployeeTest.deleteEmployeeTest" />
-        <item itemvalue="JUnit.UpdateEmployeeTest" />
-        <item itemvalue="JUnit.UpdateEmployeeTest.partialUpdateEmployeeTest" />
-        <item itemvalue="JUnit.UpdateEmployeeTest.updateEmployeeTest" />
-        <item itemvalue="JUnit.CreateNewEmployeeTest.createNewEmployeeTest" />
+        <item itemvalue="JUnit.DeleteBugTest" />
+        <item itemvalue="JUnit.CreateNewBugTest" />
+        <item itemvalue="JUnit.CreateNewBugTest.creteNewBugTest" />
+        <item itemvalue="JUnit.DeleteBugTest.deleteBugTest" />
+        <item itemvalue="JUnit.UpdateBugTest.partialUpdateBugTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688477193944</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add new class for Delete method">
+      <created>1688478126271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688478126271</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +221,7 @@
     <MESSAGE value="Add new class for Create (POST) method" />
     <MESSAGE value="Add new class for Update (PUT, PATCH) methods" />
     <MESSAGE value="Add - faker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add - faker" />
+    <MESSAGE value="Add new class for Delete method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new class for Delete method" />
   </component>
 </project>
