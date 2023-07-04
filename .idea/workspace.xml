@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c6ccc78-bc5d-482c-9fc4-a97a90a4e113" name="Changes" comment="Add new class for Create (POST) method">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CreateNewEmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UpdateEmployeeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CreateNewEmployeeTest.createNewEmployeeTest">
+  <component name="RunManager" selected="JUnit.UpdateEmployeeTest.partialUpdateEmployeeTest">
     <configuration name="CreateNewEmployeeTest.createNewEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
@@ -74,22 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadEmployeesTest.readEmployeeWithQueryParamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDWithRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadEmployeesTest" />
-      <option name="METHOD_NAME" value="readEmployeeWithQueryParamsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReadEmployeesTest.readOneEmployeeV2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
@@ -106,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadEmployeesTest.readOneUserWithPathVariableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDWithRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +98,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadEmployeesTest" />
-      <option name="METHOD_NAME" value="readOneUserWithPathVariableTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UpdateEmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateEmployeeTest.partialUpdateEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDWithRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UpdateEmployeeTest" />
+      <option name="METHOD_NAME" value="partialUpdateEmployeeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpdateEmployeeTest.partialUpdateEmployeeTest" />
+        <item itemvalue="JUnit.UpdateEmployeeTest" />
         <item itemvalue="JUnit.CreateNewEmployeeTest.createNewEmployeeTest" />
         <item itemvalue="JUnit.ReadEmployeesTest" />
         <item itemvalue="JUnit.ReadEmployeesTest.readOneEmployeeV2Test" />
-        <item itemvalue="JUnit.ReadEmployeesTest.readEmployeeWithQueryParamsTest" />
-        <item itemvalue="JUnit.ReadEmployeesTest.readOneUserWithPathVariableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688466282027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add new class for Create (POST) method">
+      <created>1688467416105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688467416105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
