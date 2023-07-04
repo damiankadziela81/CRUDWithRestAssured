@@ -3,6 +3,7 @@ package org.example;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -15,32 +16,32 @@ class UpdateEmployeeTest {
     @Test
     void updateEmployeeTest() {
 
-        String body = """
-                {
-                    "firstName": "Czarek",
-                    "lastName": "Biały",
-                    "username": "cbiały",
-                    "email": "bczarny@testerprogramuje.pl",
-                    "phone": "731-111-111",
-                    "website": "testerprogramuje.pl",
-                    "role": "qa",
-                    "type": "b2b",
-                    "address": {
-                      "street": "Ul. Sezamkowa",
-                      "suite": "8",
-                      "city": "Wrocław",
-                      "zipcode": "12-123"
-                    },
-                    "company": {
-                      "companyName": "Akademia QA",
-                      "taxNumber": "531-1593-430",
-                      "companyPhone": "731-111-111"
-                    }
-                  }""";
+        JSONObject company = new JSONObject();
+        company.put("companyName", "Akademia QA");
+        company.put("taxNumber", "531-1593-430");
+        company.put("companyPhone", "731-111-111");
+
+        JSONObject address = new JSONObject();
+        address.put("street", "Ul. Sezamkowa");
+        address.put("suite", "8");
+        address.put("city", "Wrocław");
+        address.put("zipcode", "12-123");
+
+        JSONObject employee = new JSONObject();
+        employee.put("firstName", "Czarek");
+        employee.put("lastName", "Biały");
+        employee.put("username", "cbiały");
+        employee.put("email", "bczarny@testerprogramuje.pl");
+        employee.put("phone", "731-111-111");
+        employee.put("website", "testerprogramuje.pl");
+        employee.put("role", "qa");
+        employee.put("type", "b2b");
+        employee.put("address", address);
+        employee.put("company", company);
 
         Response response = given()
                 .contentType(ContentType.JSON)
-                .body(body)
+                .body(employee.toString())
                 .when()
                 .put(BASE_URL + "/1")
                 .then()
@@ -58,19 +59,18 @@ class UpdateEmployeeTest {
     @Test
     void partialUpdateEmployeeTest() {
 
-        String body = """
-                {
-                    "address": {
-                      "street": "Ul. Sezamkowa",
-                      "suite": "9",
-                      "city": "Wrocław",
-                      "zipcode": "12-123"
-                    }
-                  }""";
+        JSONObject address = new JSONObject();
+        address.put("street", "Ul. Sezamkowa");
+        address.put("suite", "9");
+        address.put("city", "Wrocław");
+        address.put("zipcode", "12-123");
+
+        JSONObject employee = new JSONObject();
+        employee.put("address", address);
 
         Response response = given()
                 .contentType(ContentType.JSON)
-                .body(body)
+                .body(employee.toString())
                 .when()
                 .patch(BASE_URL + "/1")
                 .then()
